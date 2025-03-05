@@ -1,0 +1,34 @@
+Relaciones entre Bases de Datos de Notion:
+
+Base de datos: DB - Calificaciones de champions
+  (No tiene relaciones con otras bases de datos)
+
+Base de datos: DB - Evaluaciones / Practicantes
+  (No tiene relaciones con otras bases de datos)
+
+Base de datos: DB - Ordenes de material 
+  - 🔌 DB - Inventario de Componentes --> DB - Inventario de Componentes
+
+Base de datos: DB - Inventario de Componentes
+  - Ordenes de material  --> DB - Ordenes de material 
+  - Solicitudes de material --> DB - Solicitudes de material
+
+Base de datos: DB - Solicitudes de material
+  - Material --> DB - Inventario de Componentes
+  - Proyectos automatización --> DB - Proyectos automatización
+
+Base de datos: DB - Proyectos automatización
+  - Solicitudes de material --> DB - Solicitudes de material
+
+Base de datos: DB - Planificador semanal de actividades
+  (No tiene relaciones con otras bases de datos)
+
+Base de datos: Formulario
+  (No tiene relaciones con otras bases de datos)
+
+Base de datos: DB - Tornillos Cilíndricos MM Cab Hueca Allen Acero
+  (No tiene relaciones con otras bases de datos)
+
+Base de datos: Sin título
+  (No tiene relaciones con otras bases de datos)
+

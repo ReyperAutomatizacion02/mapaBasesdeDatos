@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Mental de Bases de Datos Notion</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <style>
+        /*  Podemos añadir estilos CSS aquí más adelante, por ahora básico */
+        .node circle {
+            fill: #fff;
+            stroke: rgb(0, 0, 0);
+            stroke-width: 1.5px;
+        }
+
+        .node text {
+            font: 12px sans-serif;
+            stroke:rgb(0, 0, 0)
+        }
+
+        .link {
+            fill: none;
+            stroke: #ccc;
+            stroke-width: 1.5px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <svg id="mapa-mental" width="960" height="600"></svg>
+    
+    <script src="script.js"></script>
+</body>
+</html>

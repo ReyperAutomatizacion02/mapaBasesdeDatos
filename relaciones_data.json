@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Bases de Datos Notion",
+        "children": [
+            {
+                "name": "DB - Calificaciones de champions",
+                "children": []
+            },
+            {
+                "name": "DB - Evaluaciones / Practicantes",
+                "children": []
+            },
+            {
+                "name": "BD relacionadas: DB - Ordenes de material  y otras",
+                "children": [
+                    {
+                        "name": "DB - Ordenes de material ",
+                        "children": [
+                            {
+                                "name": "\ud83d\udd0c DB - Inventario de Componentes",
+                                "relationTo": "DB - Inventario de Componentes"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DB - Inventario de Componentes",
+                        "children": [
+                            {
+                                "name": "Ordenes de material ",
+                                "relationTo": "DB - Ordenes de material "
+                            },
+                            {
+                                "name": "Solicitudes de material",
+                                "relationTo": "DB - Solicitudes de material"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "BD relacionadas: DB - Solicitudes de material y otras",
+                "children": [
+                    {
+                        "name": "DB - Solicitudes de material",
+                        "children": [
+                            {
+                                "name": "Material",
+                                "relationTo": "DB - Inventario de Componentes"
+                            },
+                            {
+                                "name": "Proyectos automatizaci\u00f3n",
+                                "relationTo": "DB - Proyectos automatizaci\u00f3n"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DB - Proyectos automatizaci\u00f3n",
+                        "children": [
+                            {
+                                "name": "Solicitudes de material",
+                                "relationTo": "DB - Solicitudes de material"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "DB - Planificador semanal de actividades",
+                "children": []
+            },
+            {
+                "name": "Formulario",
+                "children": []
+            },
+            {
+                "name": "DB - Tornillos Cil\u00edndricos MM Cab Hueca Allen Acero",
+                "children": []
+            },
+            {
+                "name": "Sin t\u00edtulo",
+                "children": []
+            }
+        ]
+    }
+]
