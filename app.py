@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify
-from mapDB import obtener_relaciones  # Tu función para obtener datos de Notion
+from mapDB import extraer_relaciones  # Tu función para obtener datos de Notion
 
 app = Flask(__name__)
 
@@ -9,7 +9,7 @@ def index():
 
 @app.route("/api/datos")
 def datos():
-    datos = obtener_relaciones()  # Llama a tu función para obtener datos de Notion
+    datos = extraer_relaciones()  # Llama a tu función para obtener datos de Notion
     return jsonify(datos)  # Devuelve los datos en formato JSON
 
 if __name__ == "__main__":
